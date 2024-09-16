@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 @Component
 @AllArgsConstructor
 public class Startup implements CommandLineRunner {
-
     @Autowired
     private final ProductService productService;
     @Override
